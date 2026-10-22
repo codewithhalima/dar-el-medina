@@ -1,0 +1,7 @@
+/* css/style.css – Q2.5 */
+.hero {
+  background: linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+              url("https://i.pinimg.com/1200x/64/a6/ca/64a6ca1757f00cf263e636d445898ca2.jpg")
+              center / cover no-repeat;
+  min-height: 70vh;
+}
