@@ -27,3 +27,7 @@ Q2.3:
 - col-md-8 : occupe 8 colonnes sur 12 à partir du breakpoint md (écrans moyens et plus grands).
 
 - btn-lg : donne au bouton une grande taille (large button).
+- Q2.4
+- display-1	80px
+- display-3	56px
+- display-5	40px
