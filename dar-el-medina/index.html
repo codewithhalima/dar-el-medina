@@ -9,7 +9,7 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-<nav class="navbar navbar-expand-sm bg-dark" data-bs-theme="dark">
+<nav class="navbar navbar-expand-sm bg-dark" data-bs-theme="dark" fixed="top">
   <div class="container">
 
     <a class="navbar-brand" href="#accueil">
@@ -51,28 +51,37 @@
     </div>
   </div>
 </nav>
+<!-- Alert sous la navbar -->
+<div class="alert alert-info alert-dismissible fade show mt-5"
+     role="alert">
+
+  <span class="badge text-bg-danger">Nouveau</span>
+  : réservez votre table en ligne !
+
+  <button type="button"
+          class="btn-close"
+          data-bs-dismiss="alert"
+          aria-label="Close">
+  </button>
+
+</div>
   <!-- Partie 02 : jumbotron (#accueil) -->
    
-   
-<section id="accueil" class="p-5 bg-body-tertiary text-center mt-5">
-  
-  <div class="container py-5">
-    <h1 class="display-4 fw-bold">
-      Bienvenue chez Dar El Medina
-    </h1>
+   <section id="accueil" class="p-5 mb-4 bg-body-tertiary rounded-3">
+  <div class="container-fluid py-5">
+    
+    <h1 class="display-3 fw-bold"> Bienvenue chez Dar El Medina</h1>
 
-    <p class="lead mt-3">
-      Découvrez les saveurs authentiques de la cuisine tunisienne
-      dans une ambiance traditionnelle et chaleureuse.
-    </p>
+    <p class="col-md-8 fs-4">Découvrez les saveurs authentiques de la cuisine tunisienne
+      dans une ambiance traditionnelle et chaleureuse.</p>
 
-    <a href="#menu" class="btn btn-warning btn-lg ">
+     <a href="#menu" class="btn btn-warning btn-lg ">
       <i class="bi bi-egg-fried"></i>
       Découvrir notre menu
     </a>
   </div>
-  
 </section>
+
   <!-- Partie 03 : cartes du menu (#menu) -->
 
 
