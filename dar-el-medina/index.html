@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-sm bg-dark" data-bs-theme="dark" fixed="top">
+<nav class="navbar navbar-expand-sm bg-dark p-4" data-bs-theme="dark" fixed="top">
   <div class="container">
 
     <a class="navbar-brand" href="#accueil">
@@ -42,10 +42,10 @@
           <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
-
+     
       <button class="btn btn-warning" type="button"
         data-bs-toggle="modal"
-        data-bs-target="#reservationModal">
+        data-bs-target="#reservationModal" style="width: 150px;">
         Réserver
       </button>
 
@@ -68,7 +68,7 @@
 </div>
   <!-- Partie 02 : jumbotron (#accueil) -->
    
-   <section id="accueil" class="p-5 mb-4 text-white rounded-3 hero">
+   <section id="accueil" class="p-4 mb-4 text-white rounded-3 hero">
   <div class="container-fluid py-5 d-flex align-items-center text-center">
     
     <h1 class="display-3 fw-bold"> Bienvenue chez Dar El Medina</h1>
@@ -87,6 +87,8 @@
 </section>
 
   <!-- Partie 03 : cartes du menu (#menu) -->
+<section id="menu" class="p-4">
+
 <h2 class="display-3"><i class="fas fa-utensils"></i> Notre menu</h2>
 <div class="col">
   <div class="card h-100">
@@ -105,64 +107,222 @@
     </div>
 
     <div class="card-footer d-flex justify-content-between">
-      <span>28 DT</span>
+      <span class="fs-3">28 DT</span>
       <span class="badge text-bg-success">Nouveau</span>
     </div>
   </div>
 </div>
-<div.col class="row row-cols-1 row-cols-md-2 row-cols-lg-3 ">
-<div class="card" style="width: 19rem;">
-  <img src="brika.jpg" class="card-img-top" alt="brik" style="height: 400px;>
-  <div class="card-body">
-    <h5 class="card-title">Brik</h5>
-    <p class="card-text">3anna brika bnina dhou9 to7sol! benna benna benna</p>
-    <div class="d-grid">
-    <a href="#" class="btn btn-warning ">cliquii w te2akked!</a>
+
+ <h2 class="display-3 mb-4">
+    <i class="fas fa-utensils"></i> Notre menu
+  </h2>
+
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-5 g-3">
+    <!-- Brik -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="brika.jpg" class="card-img-top"
+             alt="Brik à l'œuf"
+             style="height: 300px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Brik</h5>
+          <p class="card-text">
+            3anna brika bnina, dhou9 to7sol!  
+          </p>
+        </div>
+          <div class="d-grid">
+            <a href="#" class="btn btn-warning">Voir le détail</a>
+          
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-<div class="card" style="width: 19rem;">
-  <img src="ojja merguez.jpg" class="card-img-top" alt="ojja" style="height: 400px;>
-  <div class="card-body">
-    <h5 class="card-title">ojja merguez</h5>
-    <p class="card-text">3ejjetna aban 3ejja fil 3alem benna benna benna</p>
-   <div class="d-grid">
-    <a href="#" class="btn btn-warning ">cliquii w te2akked!</a>
+
+    <!-- Ojja -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="ojja merguez.jpg" class="card-img-top"
+             alt="Ojja merguez"
+             style="height: 300px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Ojja merguez</h5>
+          <p class="card-text">
+            3ejjetna aban 3ejja fil 3alem,benna benna
+          </p>
+        </div>
+          <div class="d-grid">
+            <a href="#" class="btn btn-warning">Voir le détail</a>
+          
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-<div class="card" style="width: 19rem;">
-  <img src="lablabi.jpg" class="card-img-top" alt="lablebi" style="height: 400px;>
-  <div class="card-body">
-    <h5 class="card-title">lablabi</h5>
-    <p class="card-text">ija menna w dhou9 lbenna lablabina a7la me famma!</p>
-   <div class="d-grid ">
-    <a href="#" class="btn btn-warning ">cliquii w te2akked!</a>
+
+    <!-- Lablabi -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="lablabi.jpg" class="card-img-top"
+             alt="Lablabi"
+             style="height: 300px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Lablabi</h5>
+          <p class="card-text">
+            Ija menna w dhou9 lbenna, lablabina a7la me famma!
+          </p>
+        </div>
+          <div class="d-grid">
+            <a href="#" class="btn btn-warning">Voir le détail</a>
+          
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-<div class="card" style="width: 19rem;">
-  <img src="makroudh.jpg" class="card-img-top" alt="makroudh" style="height: 400px;>
-  <div class="card-body">
-    <h5 class="card-title">Makroudh</h5>
-    <p class="card-text">el makroudh maarouf alina mouch al kairouan</p>
-   <div class="d-grid ">
-    <a href="#" class="btn btn-warning ">cliquii w te2akked!</a>
+
+    <!-- Makroudh -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="makroudh.jpg" class="card-img-top"
+             alt="Makroudh"
+             style="height: 300px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Makroudh</h5>
+          <p class="card-text">
+            El makroudh maarouf alina, mouch al Kairouan!
+          </p>
+        </div>
+          <div class="d-grid">
+            <a href="#" class="btn btn-warning">Voir le détail</a>
+          
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-<div class="card" style="width: 19rem;">
-  <img src="the.jpg" class="card-img-top" alt="the" style="height: 400px;>
-  <div class="card-body">
-    <h5 class="card-title">thé à la menthe</h5>
-    <p class="card-text">ammer rasek b kes tey mna3na3! benna benna benna</p>
-    <div class="d-grid ">
-    <a href="#" class="btn btn-warning ">cliquii w te2akked!</a>
+
+    <!-- Thé -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="the.jpg" class="card-img-top"
+             alt="Thé à la menthe"
+             style="height: 300px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">Thé à la menthe</h5>
+          <p class="card-text">
+            Ammer rasek b kes tey mna3na3! 
+          </p>
+         </div>
+          <div class="d-grid">
+            <a href="#" class="btn btn-warning">Voir le détail</a>
+         
+        </div>
+      </div>
     </div>
+
   </div>
-</div>
-</div>
-  <!-- Partie 04 : carrousel (#galerie) -->
+</section>
+
+
+<!-- Partie 04 : carrousel (#galerie) -->
+<section id="galerie" class="container my-5">
+
+  <h2 class="text-center mb-4">Galerie du restaurant</h2>
+
+  <div id="carouselExampleIndicators"
+       class="carousel slide carousel-fade"
+       data-bs-ride="carousel">
+
+    <!-- Indicateurs : 4 -->
+    <div class="carousel-indicators">
+      <button type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"></button>
+
+      <button type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+
+      <button type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+
+      <button type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+    </div>
+
+    <!-- Images -->
+    <div class="carousel-inner">
+
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="https://i.pinimg.com/1200x/a0/72/30/a07230c858bb4a2983e7c544d989522a.jpg"
+             class="d-block w-100"
+             alt="Salle du restaurant">
+
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Notre salle</h5>
+          <p>Une ambiance traditionnelle et chaleureuse.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="https://i.pinimg.com/1200x/71/72/c8/7172c805bf7931e22b543da6bb1364c2.jpg"
+             class="d-block w-100"
+             alt="Terrasse du restaurant">
+
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Notre terrasse</h5>
+          <p>Un espace agréable pour profiter de votre repas.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="https://i.pinimg.com/1200x/f5/1f/87/f51f871077094e06763d1d53a1d66a8b.jpg"
+             class="d-block w-100"
+             alt="Cuisine du restaurant">
+
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Notre cuisine</h5>
+          <p>Des plats préparés avec soin.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="https://i.pinimg.com/1200x/79/60/14/7960144399724ad84c441184648a551f.jpg"
+             class="d-block w-100"
+             alt="Desserts du restaurant">
+
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Nos desserts</h5>
+          <p>Une touche sucrée pour terminer votre repas.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bouton précédent -->
+    <button class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"
+            aria-hidden="true"></span>
+      <span class="visually-hidden">Précédent</span>
+    </button>
+
+    <!-- Bouton suivant -->
+    <button class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+      <span class="carousel-control-next-icon"
+            aria-hidden="true"></span>
+      <span class="visually-hidden">Suivant</span>
+    </button>
+
+  </div>
+</section>
+
   <!-- Partie 05 : fenêtres modales -->
   <!-- Partie 07 : contact et pied de page -->
 
