@@ -31,3 +31,8 @@ Q2.3:
 - display-1	80px
 - display-3	56px
 - display-5	40px
+- 
+
+- q4.2.visually-hidden
+
+- Il s’adresse aux utilisateurs de lecteurs d’écran, notamment les personnes malvoyantes. Il permet d’identifier les boutons « Précédent » et « Suivant ».
