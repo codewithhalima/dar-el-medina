@@ -5,3 +5,22 @@
               center / cover no-repeat;
   min-height: 70vh;
 }
+
+#carouselExampleIndicators {
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+#carouselExampleIndicators img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+/* Mobile */
+@media (max-width: 767.98px) {
+  #carouselExampleIndicators img {
+    height: 250px;
+  }
+}
