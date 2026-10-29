@@ -7,6 +7,7 @@
 
 - sticky-top
 - fixed-top
+
 Q2.3:
 - p-5 : ajoute une grande marge intérieure sur les quatre côtés de l'élément (padding).
 
@@ -31,8 +32,23 @@ Q2.3:
 - display-1	80px
 - display-3	56px
 - display-5	40px
-- 
+
+- Q3.3  pc 5 cartes ,tablette et telephone 1 carte.
+
+
+
+- q3.4 Les cartes ont des hauteurs différentes selon la longueur des descriptions. Avec la classe h-100, elles ont la même hauteur et les pieds de carte restent alignés.
+
+
+- q3.5 Sans object-fit:cover, les images peuvent être déformées si leurs dimensions sont fixées, ou ne pas remplir entièrement la carte.
+
+
+- q4.1 Si on oublie la classe (active) aucune diapositive ne s’affiche au depart car elle indique la diapositive visible initialement.
 
 - q4.2.visually-hidden
+Il s’adresse aux utilisateurs de lecteurs d’écran, notamment les personnes malvoyantes. Il permet d’identifier les boutons « Précédent » et « Suivant »
 
-- Il s’adresse aux utilisateurs de lecteurs d’écran, notamment les personnes malvoyantes. Il permet d’identifier les boutons « Précédent » et « Suivant ».
+- q5.5 Je conserve modal-dialog-centered pour afficher le formulaire au centre de l’écran et modal-lg pour offrir suffisamment d’espace aux champs. Je peux ajouter modal-dialog-scrollable si le formulaire devient trop long. L’attribut data-bs-backdrop="static" est utile si je veux éviter une fermeture accidentelle en cliquant à l’extérieur.
+
+
+
