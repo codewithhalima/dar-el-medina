@@ -1,0 +1,57 @@
+
+[
+  {
+    "id": 1,
+    "nom": "Couscous au poisson",
+    "categorie": "Plats",
+    "prix": 28,
+    "image": "Couss.jpg",
+    "description": "Un délicieux couscous traditionnel au poisson frais.",
+    "nouveau": true
+  },
+  {
+    "id": 2,
+    "nom": "Brik à l'œuf",
+    "categorie": "Entrées",
+    "prix": 6,
+    "image": "brika.jpg",
+    "description": "Une brik tunisienne croustillante à l'œuf.",
+    "nouveau": true
+  },
+  {
+    "id": 3,
+    "nom": "Ojja merguez",
+    "categorie": "Plats",
+    "prix": 15,
+    "image": "ojja merguez.jpg",
+    "description": "Une ojja savoureuse aux merguez.",
+    "nouveau": false
+  },
+  {
+    "id": 4,
+    "nom": "Lablabi",
+    "categorie": "Entrées",
+    "prix": 8,
+    "image": "lablabi.jpg",
+    "description": "Une soupe traditionnelle tunisienne aux pois chiches.",
+    "nouveau": false
+  },
+  {
+    "id": 5,
+    "nom": "Makroudh",
+    "categorie": "Desserts",
+    "prix": 4,
+    "image": "makroudh.jpg",
+    "description": "Une pâtisserie traditionnelle à la semoule et aux dattes.",
+    "nouveau": false
+  },
+  {
+    "id": 6,
+    "nom": "Thé à la menthe",
+    "categorie": "Boissons",
+    "prix": 3,
+    "image": "the.jpg",
+    "description": "Un thé chaud parfumé à la menthe.",
+    "nouveau": false
+  }
+]
